@@ -14,7 +14,7 @@ public class DayCounter {
         System.out.println(month + "/" + year + " ma " + countDays(month, year) + " dni.");
     }
 
-    static int countDays(int month, int year){
+    public static int countDays(int month, int year){
         int count = -1;
 
         switch (month) {
